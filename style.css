@@ -122,13 +122,16 @@ p {
 .my-row-lilac {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .my-col-lilac {
     width: calc(( 100% / 2 ) - 40px );
     margin: 20px;
+}
 
+.lilac-container div {
+    margin-bottom: 20px;
+    color: white;
 }
 
 .white-container {
@@ -139,6 +142,43 @@ p {
     text-align: center;
 }
 
+.white-container div {
+    margin-bottom: 20px;
+}
+
+.white-container div i {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.third-section-container {
+    text-align: center;
+}
+
+
+.third-section-container div h2 {
+    color: blueviolet;
+}
+
+.testimonials {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 5%;
+    color: white;
+}
+
+.testimonials div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.testimonials div {
+    margin-bottom: 20px;
+}
 
 /* FOOTER */
 
