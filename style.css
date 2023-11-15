@@ -174,7 +174,38 @@ img {
     margin-bottom: 25px;
 }
 
+/* 4 SECTION */
 
+.benefit-title {
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.benefit-card {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10%;
+}
+
+.benefit-card div {
+    margin-bottom: 20px;
+}
+
+.benefit-card h2,
+.benefit-card h3 {
+    color: #9792e4;
+}
+
+.benefit-card a {
+    text-decoration: none;
+    color: white;
+    width: 50pxpx;
+    background-color: #9792e4;
+    padding: 10px 30px;
+    border-radius: 40%;
+}
 
 
 /* FOOTER */
@@ -222,6 +253,7 @@ img {
     .info-card {
         padding: 30px;
     }
+
 
 }
 
