@@ -36,34 +36,24 @@ img {
     width: 70px;
 }
 
+.header-nav-container nav {
+    display: none;
+}
+
 .header-nav-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 25px 0px
 }
 
 .hamburger-menu {
     display: block;
 }
 
-.header-nav-container li {
-    display: inline-block;
-    margin: 15px;
-}
 
-.header-nav-container a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-}
 
-button {
-    background-color: white;
-    border-radius: 15%;
-    padding: 5px;
-    color: black;
-}
 
 
 
@@ -88,14 +78,11 @@ button {
 }
 
 .cards-info-container p,
-.cards-info-container h2 {
-    margin-bottom: 20px;
+.cards-info-container h2,
+.cards-info-container i {
+    margin-bottom: 30px;
 }
 
-
-.cards-info-container > * {
-    margin-bottom: 20px;
-}
 
 .cards-info-container a {
     background-color: #0084FD;
@@ -116,10 +103,41 @@ button {
 
 .lilac-section {
     background-color: #9792e4;
+    padding: 20px;
 }
 
+.lilac-container {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
 
+.lilac-container h2 {
+    margin: 50px 0px 30px;
+}
 
+.white-container {
+    background-color: white;
+    border-radius: 8%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.white-container h2,
+.white-container img,
+.white-container p,
+.white-container i {
+    margin-bottom: 20px;
+}
+
+.lilac-arrow {
+    background-color: #9792e4;
+    padding-top: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
 
 
 
@@ -134,12 +152,15 @@ button {
 
 /* TABLET MEDIA QUERY */
 @media screen and (min-width: 768px) {
+
+    /* MAIN QUERY */
+
     .my-row {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .my-row :first-child {
+    .my-row > :first-child {
         width: calc(( 100% / 3 ) * 2 - 40px );
     }
 
@@ -154,7 +175,7 @@ button {
     }
 
     .special-img {
-        align-self: flex-end;
+        margin-top: 80px;
     }
 
 
@@ -167,6 +188,52 @@ button {
 
 /* DESKTOP MEDIA QUERY */
 @media screen and (min-width: 992px) {
+
+    /* HEADER QUERY */
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .header-nav-container nav {
+        display: block;
+    }
+
+    .header-nav-container li {
+        display: inline-block;
+        margin: 15px;
+    }
+    
+    .header-nav-container a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #get-started-buttom {
+        background-color: white;
+        color: black;
+        padding: 4px;
+        border-radius: 10%;
+    }
+    
+    /* MAIN QUERY */
+
+    .lilac-section {
+        display: flex;
+        padding: 0px 90px;
+    }
+
+    .ilac-container {
+        width: 60%;
+    }
+
+    .white-container {
+        width: 40%;
+        align-self: flex-end;
+    }
+
+    /* FOOTER QUERY */
 
 }
 
