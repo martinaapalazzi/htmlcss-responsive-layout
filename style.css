@@ -6,13 +6,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    width: 100%
-}
 
 
 
 /* GENERAL */
+
+img {
+    width: 100%
+}
 
 .my-container {
     width: 100%;
@@ -30,15 +31,16 @@ img {
 
 
 /* HEADER */
+
+.header-logo {
+    width: 70px;
+}
+
 .header-nav-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-logo {
-    width: 70px;
 }
 
 .hamburger-menu {
@@ -69,7 +71,86 @@ button {
 
 /* MAIN */
 
-.my-row {
+.cards-info-container {
+    background-color: #b5ddff;
+    padding: 35px 25px 0px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.cards-info-container h2 {
+    color: #0084FD;
+}
+
+.cards-info-container p {
+    color: rgb(106, 106, 106);
+}
+
+.cards-info-container > * {
+    margin-bottom: 20px;
+}
+
+.cards-info-container a {
+    background-color: #0084FD;
+    color: white;
+    
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 40%;
+}
+
+.special-cols-align {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.special-cols-align i {
+    font-size: 6em;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+/* TABLET MEDIA QUERY */
+@media screen and (min-width: 768px) {
+
+
+    
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* DESKTOP MEDIA QUERY */
+@media screen and (min-width: 992px) {
+
+}
+
+
+
+
+
+
+
+/* .my-row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -10px 50px;
@@ -178,34 +259,4 @@ p {
 }
 .testimonials div {
     margin-bottom: 20px;
-}
-
-/* FOOTER */
-
-
-
-
-
-
-
-
-/* TABLET MEDIA QUERY */
-@media screen and (min-width: 768px) {
-    .header-nav-container nav {
-        display: block;
-    }
-
-    .hamburger-menu {
-        display: none;
-    }
-}
-
-
-
-
-
-
-/* DESKTOP MEDIA QUERY */
-@media screen and (min-width: 992px) {
-
-}
+} */
