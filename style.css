@@ -15,6 +15,10 @@ img {
     width: 100%
 }
 
+p {
+    line-height: 2em;
+}
+
 .my-container {
     width: 100%;
     max-width: 1200px;
@@ -207,6 +211,24 @@ img {
     border-radius: 40%;
 }
 
+/* 5 SECTION */
+
+.about-us-one div,
+.about-us-two div {
+    margin-bottom: 40px;
+}
+
+.about-us-one h2,
+.about-us-two h2 {
+    color: #9792e4;
+}
+
+.about-us-two img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 /* FOOTER */
 
