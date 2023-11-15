@@ -61,6 +61,8 @@ img {
 
 /* MAIN */
 
+/* 1 SECTION */
+
 .cards-info-container {
     background-color: #b5ddff;
     padding: 35px 25px 0px;
@@ -101,6 +103,8 @@ img {
     font-size: 6em;
 }
 
+/* 2 SECTION */
+
 .lilac-section {
     background-color: #9792e4;
     padding: 20px;
@@ -138,6 +142,38 @@ img {
     height: 30px;
     border-radius: 50%;
 }
+
+/* 3 SECTION */
+
+.info-testimonials {
+    text-align: center;
+}
+
+.info-testimonials > * {
+    margin-bottom: 25px;
+}
+
+.info-testimonials h2 {
+    color: #9792e4;
+}
+
+.my-card {
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 10%;
+    padding: 20px 10px;
+}
+
+.my-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
 
 
 
@@ -178,6 +214,14 @@ img {
         margin-top: 80px;
     }
 
+    .my-card {
+        display: flex;
+        text-align: left;
+    }
+    
+    .info-card {
+        padding: 30px;
+    }
 
 }
 
