@@ -114,7 +114,9 @@ button {
     font-size: 6em;
 }
 
-
+.lilac-section {
+    background-color: #9792e4;
+}
 
 
 
@@ -149,10 +151,11 @@ button {
     .first-card {
         display: flex;
         justify-content: flex-end;
-        align-items: flex-end;
     }
 
-   
+    .special-img {
+        align-self: flex-end;
+    }
 
 
 }
