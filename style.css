@@ -213,6 +213,10 @@ p {
 
 /* 5 SECTION */
 
+.about-us-container {
+    padding: 25px;
+}
+
 .about-us-one div,
 .about-us-two div {
     margin-bottom: 40px;
@@ -228,6 +232,13 @@ p {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.about-us-two a {
+    background-color: #9792e4;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
 }
 
 /* FOOTER */
@@ -284,6 +295,14 @@ p {
     .benefit-card-container {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .about-us-container {
+        display: flex;
+    }
+
+    .about-us-one {
+        margin-right: 70px;
     }
 
 }
