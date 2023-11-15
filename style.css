@@ -105,7 +105,8 @@ img {
 
 /* 2 SECTION */
 
-.lilac-section {
+.lilac-section,
+.lilac-section-two {
     background-color: #9792e4;
     padding: 20px;
 }
@@ -255,17 +256,13 @@ img {
 
     .benefit-card {
         margin: 25px;
+        width: calc((100% / 2) - 50px ) ;
     }
 
     .benefit-card-container {
         display: flex;
         flex-wrap: wrap;
     }
-
-    .benefit-card {
-        width: calc((100% / 2) - 50px ) ;
-    }
-
 
 }
 
@@ -312,27 +309,22 @@ img {
         padding: 0px 90px;
     }
 
-    .ilac-container {
-        width: 60%;
+    .lilac-container {
+        width: 65%;
     }
 
     .white-container {
-        width: 40%;
+        width: 35%;
         align-self: flex-end;
     }
 
     .benefit-card {
         margin: 25px;
+        width: calc(( 100% / 3) - 50px );
     }
 
-    .benefit-card-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
 
-    .benefit-card {
-        width: calc(( 100% / 3) - 50px ) ;
-    }
 
     /* FOOTER QUERY */
 
